@@ -1,0 +1,31 @@
+{
+    "name": "mostafasewidan/sewidan-field",
+    "description": "this package helps to make form fields Easier to use",
+    "authors": [
+        {
+            "name": "MostafaSewidan",
+            "email": "sewidanmostafa@gmail.com"
+        }
+    ],
+    "require": {
+        "laravelcollective/html": "*",
+        "nesbot/carbon": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SewidanField\\SewidanFieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "SewidanField\\": "src/"
+        },
+        "files": [
+            "src/fieldLoader.php",
+            "src/filesAttachment.php"
+        ]
+    }
+}

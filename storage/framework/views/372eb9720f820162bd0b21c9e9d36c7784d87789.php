@@ -1,0 +1,2 @@
+
+    <?php echo Form::password($name, $field_attributes); ?><?php /**PATH /home/ahmed-nabil94/Desktop/PhpstormProjects/RoyalCard-Backend/vendor/mostafasewidan/sewidan-field/src/resources/views/fields/password.blade.php ENDPATH**/ ?>

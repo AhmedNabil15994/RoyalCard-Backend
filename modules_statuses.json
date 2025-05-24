@@ -1,0 +1,20 @@
+{
+    "Core": true,
+    "Apps": true,
+    "Category": true,
+    "Catalog": true,
+    "Authentication": true,
+    "Authorization": true,
+    "DeviceToken": true,
+    "Page": true,
+    "Setting": true,
+    "Transaction": true,
+    "User": true,
+    "Order": true,
+    "Log": true,
+    "Area": true,
+    "Cart": true,
+    "Slider": true,
+    "Coupon": true,
+    "Notification": true
+}

@@ -1,0 +1,40 @@
+<?php
+
+namespace Modules\User\Http\Requests\Api;
+
+use Illuminate\Foundation\Http\FormRequest;
+
+class RateProductRequest extends FormRequest
+{
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        switch ($this->getMethod()) {
+            case 'post':
+            case 'POST':
+                return [
+                    'product_id' => 'required|exists:products,id',
+                    'rate'  => 'required|numeric|min:1|max:5',
+                ];
+        }
+    }
+
+    public function authorize()
+    {
+        return true;
+    }
+
+    public function messages()
+    {
+        $v = [
+            'product_id.required' => __('user::api.favourites.validation.product_id.required'),
+            'product_id.exists' => __('user::api.favourites.validation.product_id.exists'),
+        ];
+
+        return $v;
+    }
+}

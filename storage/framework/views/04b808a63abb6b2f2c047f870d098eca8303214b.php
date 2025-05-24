@@ -1,0 +1,2 @@
+
+    <?php echo Form::number($name, $value,$field_attributes); ?><?php /**PATH /home/ahmed-nabil94/Desktop/PhpstormProjects/RoyalCard-Backend/vendor/mostafasewidan/sewidan-field/src/resources/views/fields/number.blade.php ENDPATH**/ ?>

@@ -1,0 +1,28 @@
+{
+    "name": "tocaan/gowasl-package",
+    "description": "simple laravel package to connect your whatsapp and send messages",
+    "autoload": {
+        "psr-4": {
+            "WAIntegration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tocaanco",
+            "email": "tocaanco@github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WAIntegration\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "WAIntegration\\WAServiceProvider"
+            ]
+        }
+    }
+}

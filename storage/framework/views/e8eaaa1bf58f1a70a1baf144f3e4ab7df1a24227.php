@@ -1,0 +1,1 @@
+<?php echo Form::text($name, $value, $field_attributes); ?><?php /**PATH /home/ahmed-nabil94/Desktop/PhpstormProjects/RoyalCard-Backend/vendor/mostafasewidan/sewidan-field/src/resources/views/fields/text.blade.php ENDPATH**/ ?>

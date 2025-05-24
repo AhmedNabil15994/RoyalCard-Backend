@@ -1,0 +1,1 @@
+{!! Form::text($name, $value, $field_attributes) !!}
